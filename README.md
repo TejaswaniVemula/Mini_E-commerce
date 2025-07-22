@@ -30,10 +30,10 @@ A simple React-based mini e-commerce website that demonstrates routing, componen
 src/
 ├── components/
 │   └── Navbar.jsx
-├── pages/
-│   ├── Home.jsx
-│   ├── Products.jsx
-│   └── ProductDetails.jsx
+|   └── ProductDetails.jsx
+|   └── ProductList.jsx
+|   └── productData.js
+|
 ├── App.jsx
 └── main.jsx
 ```

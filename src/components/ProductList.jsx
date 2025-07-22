@@ -7,16 +7,10 @@ function ProductList() {
   return (
     <div className="product-grid">
       {products.map(product => (
-        <Link
-          to={`/product/${product.id}`}
-          key={product.id}
-          className="product-link"
-        >
-          <div className="product-card">
-            <img src={product.image} alt={product.title} />
-            <h3>{product.title}</h3>
-            <p>₹{product.price}</p>
-          </div>
+        <Link key={product.id} to={`/product/${product.id}`} className="product-card">
+          <img src={product.image} alt={product.title} />
+          <h3>{product.title}</h3>
+          <p>₹{product.price}</p>
         </Link>
       ))}
     </div>

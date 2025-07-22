@@ -1,22 +1,32 @@
+// src/App.jsx
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import ProductList from './components/ProductList';
-import ProductDetails from './components/ProductDetails'; // We'll create this next
+import ProductDetails from './components/ProductDetails.jsx';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    <>
       <Navbar />
       <div className="app-container">
-        <h1 className="app-title">Mini E-Commerce</h1>
-        <p className="app-subtitle">Explore our amazing products below.</p>
         <Routes>
-          <Route path="/" element={<ProductList />} />
-          <Route path="/product/:id" element={<ProductDetails />} />
+          <Route
+            path="/"
+            element={
+              <>
+                <h1 className="app-title">Mini E-Commerce</h1>
+                <p className="app-subtitle">Explore our amazing products.</p>
+                <ProductList />
+              </>
+            }
+          />
+          <Route path="/products" element={<ProductList />} />
+          <Route path="/cart" element={<h2>🛒 Your cart is empty</h2>} />
+          <Route path="/product/:id" element={<ProductDetails/>} /> {/* 👈 Add this */}
         </Routes>
       </div>
-    </Router>
+    </>
   );
 }
 

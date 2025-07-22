@@ -6,10 +6,10 @@ A simple React-based mini e-commerce website that demonstrates routing, componen
 
 ## 🚀 Features
 
-- 🏠 Home page with a welcome message  
-- 🛒 Products listing page  
-- 🔍 Product details using dynamic routing (`/products/:id`)  
-- 📦 Reusable components like Navbar  
+- 🏠 Home page with a welcome message
+- 🛒 Products listing page
+- 🔍 Product details using dynamic routing (`/products/:id`)
+- 📦 Reusable components like Navbar
 - 🧠 Data passed using props
 
 ---
@@ -26,15 +26,17 @@ A simple React-based mini e-commerce website that demonstrates routing, componen
 
 ## 📁 Folder Structure
 
+```plaintext
 src/
 ├── components/
-│ └── Navbar.jsx
+│   └── Navbar.jsx
 ├── pages/
-│ ├── Home.jsx
-│ ├── Products.jsx
-│ └── ProductDetails.jsx
+│   ├── Home.jsx
+│   ├── Products.jsx
+│   └── ProductDetails.jsx
 ├── App.jsx
 └── main.jsx
+```
 
 ---
 
@@ -52,9 +54,13 @@ npm install
 
 # Run development server
 npm run dev
+```
 
-🌐 Live Demo
-Hosted on Vercel
-🔗 your-vercel-link.vercel.app
+---
 
-Replace with your actual deployed link once done.
+## 🌐 Live Demo
+
+Hosted on **Vercel**  
+🔗 [your-vercel-link.vercel.app](https://your-vercel-link.vercel.app)
+
+---

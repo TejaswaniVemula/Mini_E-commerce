@@ -1,8 +1,10 @@
+import './App.css';
+
 function App() {
   return (
-    <div style={{ padding: "20px", fontFamily: "Arial" }}>
-      <h1>🛍️ Welcome to Mini E-Commerce</h1>
-      <p>Explore our amazing products below.</p>
+    <div className="app-container">
+      <h1 className="app-title">🛍️ Mini E-Commerce</h1>
+      <p className="app-subtitle">Explore our amazing products below.</p>
     </div>
   );
 }

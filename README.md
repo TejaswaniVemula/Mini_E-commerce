@@ -26,3 +26,35 @@ A simple React-based mini e-commerce website that demonstrates routing, componen
 
 ## 📁 Folder Structure
 
+src/
+├── components/
+│ └── Navbar.jsx
+├── pages/
+│ ├── Home.jsx
+│ ├── Products.jsx
+│ └── ProductDetails.jsx
+├── App.jsx
+└── main.jsx
+
+---
+
+## 🧪 Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/TejaswaniVemula/E-Commerce.git
+
+# Navigate to the project directory
+cd E-Commerce
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+🌐 Live Demo
+Hosted on Vercel
+🔗 your-vercel-link.vercel.app
+
+Replace with your actual deployed link once done.

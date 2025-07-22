@@ -61,6 +61,6 @@ npm run dev
 ## 🌐 Live Demo
 
 Hosted on **Vercel**  
-🔗 [your-vercel-link.vercel.app](https://your-vercel-link.vercel.app)
+🔗 [Live Demo](https://e-commerce-ben9.vercel.app/)
 
 ---

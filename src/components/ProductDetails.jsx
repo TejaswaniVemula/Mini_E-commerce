@@ -1,8 +1,8 @@
-// src/components/ProductDetail.jsx
+
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import products from './productsData';
-import './ProductDetails.css'; // Optional: only if you create this CSS file
+import './ProductDetails.css'; 
 
 function ProductDetails() {
   const { id } = useParams();
@@ -17,7 +17,7 @@ function ProductDetails() {
       <img src={product.image} alt={product.title} />
       <h2>{product.title}</h2>
       <p>Price: ₹{product.price}</p>
-      <p>This is a great product! Add more details here.</p>
+      <p>This is a great product!</p>
     </div>
   );
 }

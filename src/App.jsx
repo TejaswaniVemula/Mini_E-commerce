@@ -1,4 +1,4 @@
-// src/App.jsx
+
 import './App.css';
 import Navbar from './components/Navbar';
 import ProductList from './components/ProductList';
@@ -23,7 +23,7 @@ function App() {
           />
           <Route path="/products" element={<ProductList />} />
           <Route path="/cart" element={<h2>🛒 Your cart is empty</h2>} />
-          <Route path="/product/:id" element={<ProductDetails/>} /> {/* 👈 Add this */}
+          <Route path="/product/:id" element={<ProductDetails/>} />
         </Routes>
       </div>
     </>
